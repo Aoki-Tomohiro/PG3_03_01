@@ -1,6 +1,8 @@
 #include "StageScene.h"
 #include "ImGuiManager.h"
 
+StageScene::~StageScene() {}
+
 void StageScene::Initialize() {
 	inputManager_ = InputManager::GetInstance();
 	player_ = std::make_unique<Player>();

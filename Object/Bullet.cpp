@@ -6,10 +6,10 @@ void Bullet::Initialize(const Vector2& position) {
 }
 
 void Bullet::Update() {
-	//ˆÚ“®ˆ—
+	//ç§»å‹•å‡¦ç†
 	position_.y -= speed_;
 
-	//‰æ–ÊŠO‚Éo‚½‚ç€–Sƒtƒ‰ƒO‚ğ—§‚Ä‚é
+	//ç”»é¢å¤–ã«å‡ºãŸã‚‰æ­»äº¡ãƒ•ãƒ©ã‚°ã‚’ç«‹ã¦ã‚‹
 	if (position_.y + radius_.y <= 0.0f) {
 		isDead_ = true;
 	}

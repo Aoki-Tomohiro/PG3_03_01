@@ -1,6 +1,8 @@
 #include "ClearScene.h"
 #include "ImGuiManager.h"
 
+ClearScene::~ClearScene() {}
+
 void ClearScene::Initialize() {
 	inputManager_ = InputManager::GetInstance();
 }
