@@ -1,6 +1,10 @@
 #include "Player.h"
 #include "ImGuiManager.h"
 
+Player::Player() {}
+
+Player::~Player() {}
+
 void Player::Initialize() {
 	inputManager_ = InputManager::GetInstance();
 	position_ = { 1280.0f / 2.0f,720.0f / 4.0f * 3.0f };

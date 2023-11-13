@@ -4,6 +4,7 @@
 
 class ClearScene : public IScene {
 public:
+	ClearScene();
 	~ClearScene() override;
 	void Initialize() override;
 	void Update() override;

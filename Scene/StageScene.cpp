@@ -1,6 +1,8 @@
 #include "StageScene.h"
 #include "ImGuiManager.h"
 
+StageScene::StageScene() {}
+
 StageScene::~StageScene() {}
 
 void StageScene::Initialize() {

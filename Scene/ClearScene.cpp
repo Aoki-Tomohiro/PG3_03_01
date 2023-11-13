@@ -1,6 +1,8 @@
 #include "ClearScene.h"
 #include "ImGuiManager.h"
 
+ClearScene::ClearScene() {}
+
 ClearScene::~ClearScene() {}
 
 void ClearScene::Initialize() {

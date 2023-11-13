@@ -4,6 +4,8 @@
 
 class Bullet {
 public:
+	Bullet();
+	~Bullet();
 	void Initialize(const Vector2& position);
 	void Update();
 	void Draw();

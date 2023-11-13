@@ -4,6 +4,8 @@
 
 class Enemy {
 public:
+	Enemy();
+	~Enemy();
 	void Initialize();
 	void Update();
 	void Draw();

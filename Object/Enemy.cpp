@@ -1,5 +1,9 @@
 #include "Enemy.h"
 
+Enemy::Enemy() {}
+
+Enemy::~Enemy() {}
+
 void Enemy::Initialize() {
 	position_ = { 1280.0f / 2.0f,720.0f / 4.0f };
 	radius_ = { 32.0f,32.0f };

@@ -1,5 +1,9 @@
 #include "Bullet.h"
 
+Bullet::Bullet() {}
+
+Bullet::~Bullet() {}
+
 void Bullet::Initialize(const Vector2& position) {
 	position_ = position;
 	radius_ = { 5.0f,5.0f };

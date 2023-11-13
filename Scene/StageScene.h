@@ -7,6 +7,7 @@
 
 class StageScene : public IScene {
 public:
+	StageScene();
 	~StageScene() override;
 	void Initialize() override;
 	void Update() override;

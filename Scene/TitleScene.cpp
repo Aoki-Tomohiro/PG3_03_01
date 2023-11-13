@@ -1,6 +1,8 @@
 #include "TitleScene.h"
 #include "ImGuiManager.h"
 
+TitleScene::TitleScene() {}
+
 TitleScene::~TitleScene() {}
 
 void TitleScene::Initialize() {
