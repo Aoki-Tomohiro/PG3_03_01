@@ -9,6 +9,7 @@ void ClearScene::Update() {
 	if (inputManager_->GetKeyDown(DIK_SPACE)) {
 		sceneNo = TITLE;
 	}
+
 	ImGui::Begin("ClearScene");
 	ImGui::Text("SPACE : TITLE");
 	ImGui::End();
